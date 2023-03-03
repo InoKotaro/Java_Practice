@@ -58,5 +58,7 @@ public class App {
     System.out.println(name[0] + "さん：" + score[0] + "点");
     System.out.println(name[1] + "さん：" + score[1] + "点");
     System.out.println(name[2] + "さん：" + score[2] + "点");
+    System.out.println("受験者数：" +  name.length + "人"); /* score.lengthでも数えれる */
+
   }
 }

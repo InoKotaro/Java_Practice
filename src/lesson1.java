@@ -1,4 +1,4 @@
-public class Lesson {
+public class Lesson1 {
   public static void main(String[] args) throws Exception {
   
     System.out.println("=========演習問題1=========");

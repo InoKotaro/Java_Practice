@@ -18,6 +18,23 @@ public class Operator {
 
   System.out.println("a = " + a + ",b = " + b);
   System.out.println("a + b = " + (a + b));
+  System.out.println("a - b = " + (a - b));
+  System.out.println("a * b = " + (a * b));
+  System.out.println("a / b = " + (a / b));
+  System.out.println("a % b = " + (a % b));
+  System.out.println("a >= 0 : " + (a >= 0));
+  System.out.println("(a >= 0) && (b >= 0) : " + ((a >= 0) && (b >= 0)));
   
+  /*出力結果
+  a = 2,b = 3
+  a + b = 5
+  a - b = -1
+  a * b = 6
+  a / b = 0
+  a % b = 2
+  a >= 0 : true
+  (a >= 0) && (b >= 0) : true //「&&」や「||」は真偽値で返される
+  */
   }
+
 }

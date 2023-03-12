@@ -48,8 +48,8 @@ public class Array {
     System.out.println(allScore[1][1] + "点");
     System.out.println(allScore[1][2] + "点");
     
-    System.out.println("allScore.length：" + allScore.length);
-    System.out.println("allScore[0].length：" + allScore[0].length);
+    System.out.println("allScore.length: " + allScore.length);
+    System.out.println("allScore[0].length: " + allScore[0].length);
 
     /*出力結果
     10点
@@ -65,9 +65,9 @@ public class Array {
     System.out.println("=========以下コマンドライン入力=========");
     //============================コマンドライン入力========================
 
-    System.out.println("args[0]：" + args[0]);
-    System.out.println("args[1]：" + args[1]);
-    System.out.println("args.length：" + args.length);
+    System.out.println("args[0]: " + args[0]);
+    System.out.println("args[1]: " + args[1]);
+    System.out.println("args.length: " + args.length);
 
     /*コンパイル後コマンドで「java Array(クラス名) Hello Java」入力で
     args[0]：Hello

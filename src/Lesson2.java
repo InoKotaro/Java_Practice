@@ -58,13 +58,26 @@ public class Lesson2 {
     // }
 
     //=========================================================
+    //↓初回記述
     //int a = Integer.parseInt(args[0]);
 
     // for(int i = 0; i < args.length; i++){
     //   System.out.println(args);
     // }
-    for(String s:args){
-      System.out.println(s);
-      }
+    
+    //↓記事参照記述
+    // for(String s:args){
+    //   System.out.println(s);
+    //   }
+
+    //↓上記参照記述と同じ(省略前)
+    for (int i = 0; i < args.length; i++) {
+      String str = args[i];
+      System.out.println(str);
+    }
+
+    // 「int a = Integer.parseInt(args[0]);」みたく配列の番地を指定して
+    // int型変数に代入するのはコンソールで入力した値で計算とかする為
+    // 今回みたく入力した値を上限なく出力する時はfor文内で配列を文字列型変数に代入して出力させる
   }
 }

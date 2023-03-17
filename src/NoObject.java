@@ -1,12 +1,9 @@
 public class NoObject {
   public static void main(String[] args) throws Exception {
-    //============オブジェクト指向未適用ver.==================
-    int [] score = {30, 70, 100};
-    String[] name = {"弓木", "林", "与田"};
-
-    for (int i = 0; i < score.length; i++){
-      System.out.prinyln(name[i] + "さん: " + score[i] + "点");
-    }
+    //============オブジェクト指向で書くには==================
+    //実行用クラスと設計図クラスが必要
+    //実行用クラス: mainメソッドを記述
+    //設計図クラス: 属性(変数)と操作(メソッド)を記述
 
   }
 }

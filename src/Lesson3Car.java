@@ -1,9 +1,11 @@
 public class Lesson3Car {
+  //===メンバ変数===
   int no;
   int speed;
 
-  void setNo(int n){
-    no = n; //no変数に引数nの値を代入
+  //===属性===
+  void setNo(int n){ //mainクラスから受け取る引数が何型か&変数名を定義しておく
+    no = n; //no変数に引数nの値を代入(このクラス内で使えるようにする)
   }
 
   void run(int s){

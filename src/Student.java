@@ -18,7 +18,7 @@ public class Student {
     System.out.println("英語" + engScore + "点, 数学" + mathScore + "点"); 
   }
 
-  void setScore(int eng, int math){ //引数を変数へ代入
+  void setScore(int eng, int math){ //引数を変数へ代入(ここで判別しやすい変数名に代入)
     engScore = eng;
     mathScore = math;
   }

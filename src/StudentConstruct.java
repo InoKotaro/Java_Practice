@@ -1,21 +1,20 @@
-//============オーバーロード==================
-public class StudentOverload {
+//============コンストラクタ==================
+public class StudentConstruct {
   String name;
   int engScore;
   int mathScore;
 
-
-  void setDate(String n){ //名前だけ代入
+  StudentConstruct(String n){ //クラス名と一致させる&戻り値を書かない(voidとかintとかの型)
     name = n;
   }
 
-  void setDate(String n, int e, int m){ //名前,英語点,数学点代入
+  StudentConstruct(String n, int e, int m){
     name = n;
     engScore = e;
     mathScore = m;
   }
 
-  void setScore(int e, int m){ //英語点,数学点代入
+  void setScore(int e, int m){
     engScore = e;
     mathScore = m;
   }

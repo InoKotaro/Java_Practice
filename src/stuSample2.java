@@ -1,4 +1,5 @@
 public class stuSample2 {
+  //============オーバーロード==================
   public static void main(String[] args) throws Exception {
     //============オーバーロード==================
     //[おさらい]初期化は宣言と代入を一緒に行うこと(今回はnewでオブジェクト生成部分)

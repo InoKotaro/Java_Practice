@@ -1,4 +1,4 @@
-//============オーバーロード==================
+//============オーバーロード(stuSample2)==================
 public class StudentOverload {
   String name;
   int engScore;

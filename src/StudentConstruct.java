@@ -1,4 +1,4 @@
-//============コンストラクタ==================
+//============コンストラクタ(stuSample3)==================
 public class StudentConstruct {
   String name;
   int engScore;

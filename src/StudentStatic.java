@@ -1,3 +1,4 @@
+//============static(stuSample4)==================
 public class StudentStatic {
   String name;
   static int counter = 0; //static化してクラス内で共有できるよう固定

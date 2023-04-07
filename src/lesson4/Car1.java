@@ -10,7 +10,7 @@ public class Car1 { //ここのクラス名はファイル名と一致させる(
     speed = s;
   }
 
-  //brakeがオーバーロード
+  //以下２つbrakeメソッドがオーバーロード
   void brake(){
     speed = 0;
   }

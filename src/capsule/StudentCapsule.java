@@ -1,4 +1,4 @@
-//============カプセル化(stuSample5)==================
+//============カプセル化(stuSample5)============
 public class StudentCapsule {
   private String name; //private指定
   private int score; //private指定することで他クラスからscore変数の中身を書き換え不可にできる(メソッド経由でメンバ変数に代入させたい際に発揮)

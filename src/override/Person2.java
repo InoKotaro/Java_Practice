@@ -6,7 +6,7 @@ public class Person2 {
   }
 
   public String getName(){
-    return name;
+    return name; //「return 変数名」とすることでメソッド自体が変数同等になる
   }
 
   public void display(){

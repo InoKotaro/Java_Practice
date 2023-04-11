@@ -3,7 +3,7 @@ public class Student3 extends Person3{ //オーバーライド設定
   
   public Student3(String name){ //引数名前だけパターン
     this(name, 999); //「this」は「Student3」ということなので、実質「Student3(name, 999)」をコンストラクタで呼び出している。
-                     //引数が名前だけであれば学籍番号999固定。
+                     //引数が名前だけパターンに学籍番号999固定するために用意されたメソッド。
     // super(name); 
     // this.stuNo = 999; 
     //でも同じ出力結果になる
@@ -11,9 +11,7 @@ public class Student3 extends Person3{ //オーバーライド設定
   }
 
   public Student3(String name, int stuNo){ //引数名前,学籍番号ありパターン
-    super(name); //super使用で「Person3クラス」内の「nameメンバ変数」に引数k代入()があるので最上行に書く
-    this.stuNo = stuNo; //「引数stuNo」をthis使用でメンバ変数の「stuNo」に代入
-    //このメソッドでは学籍番号をメンバ変数に代入する必要があるので「this(name, 999)」と書けない
+    super(name); //super使用で「Person3クラス」内の「nameメンバ変数」に引数k代入()があるので最上行に書く    this.stuNo = stuNo; //「引数stuNo」をthis使用でメンバ変数の「stuNo」に代入
   }
 
   public void display(){

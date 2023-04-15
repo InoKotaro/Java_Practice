@@ -12,7 +12,7 @@ public class Taxi2 extends Car2 {
     //間違い => this.no = no;
     this.price = price; //引数分が加算される
   }
-  
+   
   public void start(){
     price = price + 420; //priceメンバ変数に420加算
   }

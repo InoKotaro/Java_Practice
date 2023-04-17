@@ -1,3 +1,4 @@
+//============参照型の型変換==================
 public class Student5 extends Person5{
   private int stuNo;
 

@@ -3,7 +3,7 @@ public class TandF extends Club{
     super(name);
   }
 
-  public void practice(){ //オーバーライド適用可能
+  public void practice(){ //オーバーライド
     System.out.println("ウォームアップ");
     System.out.println("インターバル");
     System.out.println("筋トレ");

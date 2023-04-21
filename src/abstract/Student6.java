@@ -1,6 +1,6 @@
 public class Student6 {
-  private String name; //名前
-  private Club club; //Clubオブジェクト
+  private String name; //名前メンバ変数
+  private Club club; //Clubクラスの変数を定義。❗️これがポイントかもしれない
 
   public Student6(String name, Club club){
     this.name = name;

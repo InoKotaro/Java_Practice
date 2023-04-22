@@ -9,10 +9,10 @@ public class Student6 {
 
   public void display(){
     System.out.println("名前：" + name);
-    club.display();
+    club.display(); //メソッド呼び出し
   }
 
   public void practice(){
-    club.practice();
+    club.practice(); //メソッド呼び出し
   }
 }

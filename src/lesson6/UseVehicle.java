@@ -1,5 +1,9 @@
 import mypack.*; //「import」で使用パッケージ定義。❗️「.*」を忘れないように
 
+//==========================================
+//パッケージ化した際は実行用クラス以外は指定パッケージに「javaファイル」「クラスファイル」共に移動させちゃった方が無難
+//==========================================
+
 public class UseVehicle {
   public static void main(String[] args) throws Exception {
     Vehicle[] v = new Vehicle[3];

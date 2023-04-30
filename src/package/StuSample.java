@@ -1,5 +1,5 @@
 //============パッケージ化==================
-import pack.Student; //使用するパッケージ化済みファイルを指定 //書き方はクラスファイルがいっぱいあれば「import pack.*」でも可。これで処理が重くなることはない
+import pack.Student; //使用するパッケージ化済みファイルを指定。[推奨]=>推奨書き方はクラスファイルがいっぱいあれば「import pack.*」を推奨。これで処理が重くなることはないため、とりあえず「.*」使えば可
 
 public class StuSample {
   public static void main(String[] args) throws Exception {
